@@ -8,7 +8,11 @@
 int add_int(float a, double b, long double c){
     int result = 0;
 
-    // Write your code here
+    a = static_cast<int>(a);
+    b = static_cast<int>(b);
+    c = static_cast<int>(c);
+
+    result = (a + b + c);
     
     return result;
 }
