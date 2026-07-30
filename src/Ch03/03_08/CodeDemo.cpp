@@ -8,7 +8,9 @@
 double my_average(int a, int8_t b, uint32_t c){
     double result = 0.0;
 
-    // Write your code here
+    result = (a + b + c)/3.0;
+    //Remember: Dividing by an INT gives an INT Result.
+    //          Dividing by a DOUBLE gives a DOUBLE Result.
     
     return result;
 }
